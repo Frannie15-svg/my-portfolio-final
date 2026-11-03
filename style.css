@@ -1,0 +1,1031 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+        background-color:#FAF7FA;
+    }
+    
+    .girl{
+        background-color:#8B6246;
+        height: 40px;
+        overflow: hidden;
+        border-radius: 7px;
+    }
+    
+    
+    .boy{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+        overflow: none;
+    }
+    
+    .logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+    font-weight: 450px;
+    letter-spacing: normal;
+    color: beige;
+    text-wrap: 10px;
+    padding-left: 15px;
+    }
+    
+    nav ul{
+        display: flex;
+    }
+    
+    nav li{
+        display: flex;
+    }
+    
+    
+    nav li a{
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+    color: #FAF7FA;
+    padding-right: 10px;
+    font-size: small;
+    font-weight: 300px;
+    }
+    
+    nav li a:hover{
+     color:#8B6246;
+    }
+
+.her{
+    height: 200px;
+background-color:beige;
+display: flex;
+flex-direction: row;
+gap: 30px;
+}
+
+.we h1{
+color: #30251F;
+font-size: medium;
+font-weight: 300;
+font-family: Arial;
+padding-top: 7px;
+padding-left: 15px;
+}
+
+.we h1 b{
+    font-weight: bold;
+}
+
+.you i{
+color: #30251F;
+font-size: small;
+font-weight: 190;
+font-family:Arial ;
+padding-top: 5px;
+padding-left: 15px;
+}
+
+.cat p{
+color: #30251F;
+font-size: smaller;
+font-weight: 175px;
+font-family: Arial;
+padding-top: 5px;
+padding-left: 15px;
+}
+
+
+.view{
+    margin-left: 15px;
+    margin-top: 10px;
+    box-sizing: content-box;
+    }
+    
+    .view a{
+        display: inline-block;
+        border-radius: 8px;
+    padding: 8px 8px;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #6B4F3A;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    }
+    
+    .view :hover{
+    color: #FAF7FA;
+    transform: translateY(-3px);
+    }
+
+
+.uni{
+width: 200px;
+height: 150px;
+object-fit: cover;
+border-radius: 45% 45% 20% 20%;
+background-color: #30251F;
+}
+
+
+.rat{
+background-color: rgba(245, 245, 220, 0.788);
+height: 130px;
+}
+
+.pat h2{
+    padding-top: 15px;
+font-family: 'Times New Roman';
+font-size: medium;
+font-weight: bold;
+letter-spacing: normal;
+color: #6B4F3A;
+}
+
+.pat h2::after{
+content:"";
+display: block;
+width: 25px;
+height: 2px;
+background-color: #6B4F3A;
+border-radius: 2px;
+}
+
+.pass h4{
+padding-top: 7px;
+font-family: 'Times New Roman';
+font-size: small;
+font-weight: 200;
+letter-spacing: normal;
+color: #30251F;
+}
+
+.my{
+background-color: beige;
+height: 240px;
+}
+
+.sky h2{
+    padding-top: 15px;
+font-family: 'Times New Roman';
+font-size: medium;
+font-weight: bold;
+letter-spacing: normal;
+color: #6B4F3A;
+}
+
+.sky h2::after{
+content:"";
+display: block;
+width: 25px;
+height: 2px;
+background-color: #6B4F3A;
+border-radius: 2px;
+}
+
+.bag{
+display: grid;
+grid-template-columns: repeat(2,120px);
+justify-content: center;
+gap: 30px;
+margin-top: 10px;
+}
+
+.bag div{
+padding: 20px;
+border: 2px solid beige;
+border-radius: 7px;
+text-align: center;
+background-color: #FAF7FA;
+}
+
+.bag div:hover{
+    text-decoration: underline;
+background-color: beige;
+border-radius: 25px;
+}
+
+.bag div h5{
+font-family:Arial;
+font-size: medium;
+font-weight: 300;
+letter-spacing: normal;
+color: #30251F;
+}
+
+.rice{
+    background-color: rgba(245, 245, 220, 0.788);;
+    height: 210px;
+    }
+    
+    .food h2{
+        padding-top: 15px;
+    font-family: 'Times New Roman';
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: #6B4F3A;
+    }
+    
+    .food h2::after{
+    content:"";
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #6B4F3A;
+    border-radius: 2px;
+    }
+
+.car{
+display: flex;
+flex-direction: row;
+gap: 15px;
+margin-left: 45px;
+margin-top: 30px;
+}
+
+.pit{
+background-color: #8B6246;
+box-sizing: border-box;
+border-radius: 15px;
+padding: 3px;
+}
+
+.pit h5{
+color: #FAF7FA;
+font-family: Arial;
+font-size: medium;
+font-weight: 200;
+letter-spacing: normal;
+text-wrap: 10px;
+padding: 0.3rem;
+}
+
+.pit p{
+color: #FAF7FA;
+font-family: Arial;
+font-size: small;
+font-weight: 100;
+letter-spacing: normal;
+text-wrap: 6px;
+padding: 0.2rem;
+}
+
+
+.web{
+background-color: #8B6246;
+box-sizing: border-box;
+border-radius: 15px;
+padding: 5px;
+}
+
+
+.web h5{
+    color: #FAF7FA;
+    font-family: Arial;
+    font-size: medium;
+    font-weight: 200;
+    letter-spacing: normal;
+    text-wrap: 10px;
+    padding: 0.3rem;
+}
+
+.web p{
+    color: #FAF7FA;
+    font-family: Arial;
+    font-size: small;
+    font-weight: 100;
+    letter-spacing: normal;
+    text-wrap: 10px;
+    padding: 0.2rem;
+    }
+
+
+    .day{
+        background-color: beige;
+        height: 210px;
+        }
+        
+        .feed h2{
+            padding-top: 15px;
+        font-family: 'Times New Roman';
+        font-size: medium;
+        font-weight: bold;
+        letter-spacing: normal;
+        color: #6B4F3A;
+        }
+        
+        .feed h2::after{
+        content:"";
+        display: block;
+        width: 25px;
+        height: 2px;
+        background-color: #6B4F3A;
+        border-radius: 2px;
+        }
+
+
+.vase{
+    background-color: #FAF7FA;
+padding: 8px;
+text-align: center;
+border-radius: 30px 30px;
+margin: 20px auto;
+width: 70%;
+}
+
+.vase h5{
+color: #8B6246;
+font-family: 'Times New Roman';
+font-size: large;
+font-weight: 100;
+letter-spacing: normal;
+text-wrap: 20px;
+}
+
+.vase h5 b{
+    font-weight: bold;
+}
+
+
+
+.van{
+    background-color: #FAF7FA;
+padding: 8px;
+text-align: center;
+border-radius: 30px 30px;
+margin: 20px auto;
+width: 70%;
+}
+
+.van h5{
+color: #8B6246;
+font-family: 'Times New Roman';
+font-size: large;
+font-weight: 100;
+letter-spacing: normal;
+text-wrap: 20px;
+}
+
+.van h5 b{
+    font-weight: bold;
+}
+
+
+footer{
+    background-color:#8B6246;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+
+.won{
+font-family: Arial;
+font-size: large;
+font-weight: 300;
+color: #30251F;
+letter-spacing: normal;
+text-align: center;
+padding: 3px;
+}
+
+
+@media screen and (max-width:360px) {
+
+.boy{
+    gap: 35px;
+}
+
+.logo{
+font-weight: 200;
+font-size: medium;
+font-weight: 300px;
+}
+
+nav  li a{
+font-weight: 200;
+font-size: small;
+}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 520px) {
+   
+    .boy{
+        gap: 65px;
+    }
+
+.her{
+height: 220px;
+gap: 57px;
+}
+
+.we h1{
+margin-top: 12px;
+padding-left: 25px;
+}
+
+.you h5 i{
+    padding-top: 2px;
+    padding-left: 25px;
+font-weight: 200;
+font-size: small;
+}
+
+.cat p{
+    padding-top: 2px;
+    padding-left: 25px;
+    }
+    
+.uni{
+    margin-top: 15px;
+}
+
+.car{
+    gap: 25px;
+}
+
+.pit{
+    margin-left: 35px;
+}
+
+.web{
+    margin-right: 0;
+}
+
+}
+
+
+@media screen and  (max-width: 600px){
+    
+.boy{
+display: flex;
+justify-content:space-between;
+width: 100%;
+}
+
+
+nav  li a {
+    gap: 25px;
+}
+
+.logo{
+    margin-left: 38px;
+}
+
+.her{
+    height: 250px;
+    gap: 63px;
+}
+
+
+.uni{
+    margin-top: 15px;
+    height: 185;
+}
+
+.we h1{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.you h5 i{
+    padding-top: 2px;
+    padding-left: 30px;
+}
+
+.cat p{
+    padding-top: 2px;
+    padding-left: 30px;
+}
+
+.car{
+gap: 10px;
+width: 100%;
+justify-content: center;
+}
+
+}
+
+
+@media screen and  (max-width: 800px){
+    
+    .boy{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    }
+    
+    
+    nav  li a {
+        gap: 35px;
+        font-weight: 400;
+        font-size: medium;
+    }
+    
+    .logo{
+        margin-left: 38px;
+        font-weight: 500;
+        font-size: large;
+    }
+    
+    .her{
+        height: 260px;
+        gap: 63px;
+    }
+    
+    
+    .uni{
+        margin-top: 15px;
+        height: 200px;
+        width: 300px;
+    }
+    
+    .we h1{
+        padding-top: 15px;
+        padding-left: 30px;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    
+    .you h5 i{
+        padding-top: 2px;
+        padding-left: 30px;
+        font-size: large;
+        font-weight: 550px;
+    }
+    
+    .cat p{
+        padding-top: 2px;
+        padding-left: 30px;
+font-size: large;
+font-weight: 500;
+
+    }
+    
+    .car{
+    gap: 35px;
+    width: 100%;
+    justify-content: center;
+    }
+
+.pat h2{
+font-size: large;
+font-weight: bolder;
+}
+
+
+.sky h2{
+    font-size: large;
+    }
+
+    .food h2{
+        font-size: large;
+        }
+
+        .feed h2{
+            font-size: large;
+            }
+
+            .bag{
+grid-template-columns: repeat(2, 150px);
+            }
+                                        
+.pit{
+    width: 20%;
+padding: 6px;
+}
+
+.web{
+width: 20%;
+padding: 6px;
+
+}
+
+
+    
+    }
+    
+    
+       
+    
+    @media screen and  (max-width: 950px){
+    
+        .boy{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        }
+        
+
+        nav  li a {
+            gap: 50px;
+            font-weight: 700;
+            font-size: medium;
+        }
+        
+        .logo{
+            margin-left: 38px;
+            font-weight: 900;
+            font-size: large;
+        }
+        
+        .her{
+            height: 450px;
+            gap: 63px;
+        }
+        
+        .my{
+height: 300ppx;
+        }
+
+
+
+
+        .uni{
+            margin-left: 70px;
+            margin-top: 15px;
+            height: 400px;
+            width: 350px;
+        }
+        
+        .we h1{
+            padding-top: 35px;
+            padding-left: 60px;
+            font-size: larger;
+            font-weight: 1040px;
+        }
+        
+        .you h5 i{
+            padding-top: 5px;
+            padding-left: 60px;
+            font-size: large;
+            font-weight: 1010px;
+        }
+        
+.view{
+margin-left: 35px;
+margin-top: 40px;
+}
+
+
+.view a{
+padding: 12px 12px;
+font-size: larger;
+font-weight: 800;
+}
+
+
+
+        .cat p{
+            padding-top: 5px;
+            padding-left: 60px;
+    font-size: large;
+    font-weight: 900;
+    
+        }
+        
+        .car{
+        gap: 35px;
+        width: 100%;
+        justify-content: center;
+        }
+    
+    .pat h2{
+    font-size: large;
+    font-weight: 850px;
+    }
+    
+    .pass h4{
+        font-size: large;
+        font-weight: 750px;
+    }
+
+
+
+    .sky h2{
+        font-size: larger;
+        font-weight: 850;
+        }
+    
+        .food h2{
+            font-size: large;
+            }
+    
+            .feed h2{
+                font-size: large;
+                }
+    
+                .bag{
+    grid-template-columns: repeat(2, 200px);
+                }
+                                            
+    .pit{
+        width: 40%;
+    padding: 10px;
+    }
+    
+    .web{
+    width: 40%;
+    padding: 10px;
+    
+    }
+    
+    .pit h5{
+font-size: larger;
+font-weight: 850px;
+text-align: center;
+color: #30251F;
+    }
+        
+.pit p{
+font-size: large;
+font-weight: 700;
+}
+
+.web h5{
+    font-size: larger;
+    font-weight: 850px;
+    text-align: center;
+    color: #30251F;
+        }
+            
+    .web p{
+    font-size: large;
+    font-weight: 700;
+    }
+        }
+        
+        
+           
+        
+        
+        
+        @media screen and  (max-width: 1054px){
+    
+            .boy{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            }
+            
+    
+            nav  li a {
+                gap: 50px;
+                font-weight: 700;
+                font-size: medium;
+            }
+            
+            .logo{
+                margin-left: 38px;
+                font-weight: 900;
+                font-size: large;
+            }
+            
+.main{
+max-width: 1030;
+width: 100%;
+margin: 0 auto;
+}
+
+
+
+
+
+            .her{
+                height: 450px;
+                gap: 63px;
+            }
+            
+            .my{
+    height: 300ppx;
+            }
+    
+            .uni{
+                margin-left: 70px;
+                margin-top: 15px;
+                height: 400px;
+                width: 350px;
+            }
+            
+            .we h1{
+                padding-top: 35px;
+                padding-left: 60px;
+                font-size: larger;
+                font-weight: 1040px;
+            }
+            
+            .you h5 i{
+                padding-top: 5px;
+                padding-left: 60px;
+                font-size: large;
+                font-weight: 1010px;
+            }
+            
+    .view{
+    margin-left: 35px;
+    margin-top: 40px;
+    }
+    
+    
+    .view a{
+    padding: 12px 12px;
+    font-size: larger;
+    font-weight: 800;
+    }
+    
+    
+    
+            .cat p{
+                padding-top: 5px;
+                padding-left: 60px;
+        font-size: large;
+        font-weight: 900;
+        
+            }
+            
+            .car{
+            gap: 35px;
+            width: 100%;
+            justify-content: center;
+            }
+        
+        .pat h2{
+        font-size: large;
+        font-weight: 850px;
+        }
+        
+        .pass h4{
+            font-size: large;
+            font-weight: 750px;
+        }
+    
+    
+    
+        .sky h2{
+            font-size: larger;
+            font-weight: 850;
+            }
+        
+            .food h2{
+                font-size: large;
+                }
+        
+                .feed h2{
+                    font-size: large;
+                    }
+        
+                    .bag{
+        grid-template-columns: repeat(2, 200px);
+                    }
+                                                
+        .pit{
+            width: 40%;
+        padding: 10px;
+        }
+        
+        .web{
+        width: 40%;
+        padding: 10px;
+        
+        }
+        
+        .pit h5{
+    font-size: larger;
+    font-weight: 850px;
+    text-align: center;
+    color: #30251F;
+        }
+            
+    .pit p{
+    font-size: large;
+    font-weight: 700;
+    }
+    
+    .web h5{
+        font-size: larger;
+        font-weight: 850px;
+        text-align: center;
+        color: #30251F;
+            }
+                
+        .web p{
+        font-size: large;
+        font-weight: 700;
+        }
+
+            }
+            
+            
+                      
+        
+         
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
